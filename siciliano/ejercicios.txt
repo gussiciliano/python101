@@ -1,0 +1,34 @@
+───█───▄▀█▀▀█▀▄▄───▐█──────▄▀█▀▀█▀▄▄
+──█───▀─▐▌──▐▌─▀▀──▐█─────▀─▐▌──▐▌─█▀
+─▐▌──────▀▄▄▀──────▐█▄▄──────▀▄▄▀──▐▌
+─█────────────────────▀█────────────█
+▐█─────────────────────█▌───────────█
+▐█─────────────────────█▌───────────█
+─█───────────────█▄───▄█────────────█
+─▐▌───────────────▀███▀────────────▐▌
+──█──────────▀▄───────────▄▀───────█
+───█───────────▀▄▄▄▄▄▄▄▄▄▀────────█
+
+1.4 Comenzando a programar - Print, if, elif, else - tipos de datos
+
+1- Escribir un programa que diga "Aguante la Comic Sans"
+
+2- Evaluar 4>3 and print("hola") - Explicar que sucede, generar un ejemplo donde la sentencia "hola" NO se ejecute.
+
+3- Escribir un programa que reciba un nombre de usuario, luego de obtenerlo diga "Las computadoras dominaremos el mundo, @nombre"
+
+4- Escribir un programa que reciba texto, si es una fruta y es una banana o manzana indica "yummi", si no lo es dice "puajjj"
+
+5- Escribir un programa que reciba un número entero positivo, devolver la sumatoria de dicho número.
+
+6- Modificar el ejercicio anterior generando que únicamente sume números que sean múltiplos de 3, 5 o 7 hasta el número ingresado.
+
+7- Dado un numero ingresado por el usuario, dar la posibilidad al mismo de: generar su sumatoria o su factorial.
+
+8- Computar el número K ingresado! 4⋅∑(−1)i+12i . Ayudita: la sumatoria va de 0 a K, en este caso i es el elemento del ciclo.
+
+9- ¿Que año es dentro de 20 años? (APA! consultame si necesitas!)
+
+10- SUPER HARD, vale 10 puntos para Griffindor: Escribir un piedra, papel o tijera de 1 ronda.
+
+Ayudita: Vas a tener que buscar como hacer un #random con tus propias manos.
