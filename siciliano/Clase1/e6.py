@@ -1,9 +1,9 @@
-#Modificar el ejercicio anterior generando que únicamente sume números que sean múltiplos de 3, 5 o 7 hasta el número ingresado.
-numero = input()
-if(numero%3 == 0):
-	numero = numero + numero
-elif(numero%5 == 0):
-	numero = numero + numero
-elif(numero%7 == 0):
-	numero = numero + numero
-print(numero)
+#Modificar el ejercicio anterior generando que unicamente sume numeros que sean multiplos de 3, 5 o 7 hasta el número ingresado.
+numero = int(input())
+contador = 0
+sumatoria = 0
+if numero%3 == 0 or numero%5 == 0 or numero%7 == 0:
+	while contador <= numero:
+		sumatoria += contador
+		contador += 1
+print(sumatoria)
