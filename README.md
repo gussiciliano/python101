@@ -26,15 +26,15 @@ __http://www.apache.org/licenses/LICENSE-2.0.txt__
 * Concepto de Main (en clase)
 * Numericos, Diccionarios, Listas, Sets (en clase)
 
-* [Ejercicios!](1.5-tipos-de-datos/src/ejercicios.txt)
+* [Ejercicios!](1.5-tipos-de-datos/ejercicios.txt)
 
 [**_Funciones y programación funcional_**](2.0-programacion-funcional)
-* [Definiendo una función](2.0-programacion-funcional/function_0.py)
-* [Llamando a una función](2.0-programacion-funcional/function_2.py)
-* [Argumentos posicionales y nominados](2.0-programacion-funcional/function_2.py)
-* [Argumentos defaults](2.0-programacion-funcional/function_2.py)
-* [Decoradores](2.0-programacion-funcional/function_decorators.py)
-* [Recursividad](2.0-programacion-funcional/function_recursive_0.py)
+* [Definiendo una función](2.0-programacion-funcional/src/function_0.py)
+* [Llamando a una función](2.0-programacion-funcional/src/function_2.py)
+* [Argumentos posicionales y nominados](2.0-programacion-funcional/src/function_2.py)
+* [Argumentos defaults](2.0-programacion-funcional/src/function_2.py)
+* [Decoradores](2.0-programacion-funcional/src/function_decorators.py)
+* [Recursividad](2.0-programacion-funcional/src/function_recursive_0.py)
 * Listas por comprención
 
 * [Ejercicios!](2.0-programacion-funcional/ejercicios.txt)
