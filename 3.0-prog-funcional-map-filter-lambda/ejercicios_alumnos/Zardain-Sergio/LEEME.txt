@@ -1,0 +1,7 @@
+Ejercicios para hacer después de los ejercicios de 3.0:
+
+- ej01.py - Nos piden que la agenda pueda darme un conjunto de contactos que nacieron después de cierta fecha (en años, ej 1993).
+- ej02.py - La agenda puede buscar contactos por iniciales y devolver los resultados posibles.
+- ej03.py - La agenda puede para todos sus contactos enviarles un email y marcarlos como SEND.
+- ej04.py - La agenda puede integrar las funcionalidades y permitir: mandar mail a todas las personas que nacieron despues de 1993.
+- ej05.py - Calcular para todos los contactos de la agenda que edad tendrán dentro de 10 años.

@@ -1,14 +1,15 @@
-#!/usr/bin/python3.
+#!/usr/bin/python3.5
+# -*- coding: utf-8 -*-
 '''
 Created on 9 jul. 2016
 
 @author: Lucas
 '''
 if __name__ == '__main__':
-    
+
     name = str(input("ingrese su nombre:\n"))
     print(name)
-    
+
     #name = str(raw_input("What is your name: "))
     #age = int(raw_input("How old are you: "))
     #year = str((2014 - age)+100)
@@ -20,12 +21,12 @@ if __name__ == '__main__':
     #    input = raw_input
     #except NameError:
     #    pass
-    # now input() does the job on either 2.x or 3.   
-    
-    
+    # now input() does the job on either 2.x or 3.
+
+
     value = input("ingrese valor\n")
     print(value)
-    
+
     # Ejercicio enteros
     print("Suma 3 + 2")
     suma = 3+2
@@ -36,7 +37,7 @@ if __name__ == '__main__':
     print(division)
     division = float(suma) / (suma - 1)
     print(division)
-    
+
     multilinea = """este es un ejemplo
     con multiples lines
     lo pueden ver"""

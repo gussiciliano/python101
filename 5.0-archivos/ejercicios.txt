@@ -1,0 +1,11 @@
+ 2.4 Archivos
+ 
+ - Se debera generar un sistema que mantenga en disco datos de una agenda.
+     - El programa mostrara las opciones> agregar, editar, borrar, mostrar y salir
+     agregar, agenda un contacto (email, telefono, nombre, domicilio, edad y dni)
+     editar, permite modificar cualquiera de los contactos seleccionando su email.
+     borrar, elimina un contacto.
+
+- Dado un archivo txt, separado por ";" con email,telefono, nombre, domicilio, edad y dni permitir ejecutar el programa anterior,
+indicandole la dirección del archivo  del mismo. Una vez en el programa este deberá consultar al usuario si quiere agendar los contactos.
+De ser asi, persistirlos en disco. Caso contrario seguir con el flujo normal de aplicación.

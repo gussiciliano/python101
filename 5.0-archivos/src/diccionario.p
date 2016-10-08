@@ -1,0 +1,10 @@
+(dp0
+S'nombre'
+p1
+S'lucas'
+p2
+sS'apellido'
+p3
+S'bais'
+p4
+s.

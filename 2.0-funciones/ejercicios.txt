@@ -1,0 +1,57 @@
+─▄▀▀▀▀▄─█──█────▄▀▀█─▄▀▀▀▀▄─█▀▀▄
+─█────█─█──█────█────█────█─█──█
+─█────█─█▀▀█────█─▄▄─█────█─█──█
+─▀▄▄▄▄▀─█──█────▀▄▄█─▀▄▄▄▄▀─█▄▄▀
+
+─────────▄██████▀▀▀▀▀▀▄
+─────▄█████████▄───────▀▀▄▄
+──▄█████████████───────────▀▀▄
+▄██████████████─▄▀───▀▄─▀▄▄▄──▀▄
+███████████████──▄▀─▀▄▄▄▄▄▄────█
+█████████████████▀█──▄█▄▄▄──────█
+███████████──█▀█──▀▄─█─█─█───────█
+████████████████───▀█─▀██▄▄──────█
+█████████████████──▄─▀█▄─────▄───█
+█████████████████▀███▀▀─▀▄────█──█
+████████████████──────────█──▄▀──█
+████████████████▄▀▀▀▀▀▀▄──█──────█
+████████████████▀▀▀▀▀▀▀▄──█──────█
+▀████████████████▀▀▀▀▀▀──────────█
+──███████████████▀▀─────█──────▄▀
+──▀█████████████────────█────▄▀
+────▀████████████▄───▄▄█▀─▄█▀
+──────▀████████████▀▀▀──▄███
+──────████████████████████─█
+─────████████████████████──█
+────████████████████████───█
+────██████████████████─────█
+────██████████████████─────█
+────██████████████████─────█
+────██████████████████─────█
+────██████████████████▄▄▄▄▄█
+
+─────────────█─────█─█──█─█───█
+─────────────█─────█─█──█─▀█─█▀
+─────────────█─▄█▄─█─█▀▀█──▀█▀
+─────────────██▀─▀██─█──█───█
+
+Listas por comprención:
+
+- Dado una lista de números enteros definir una nueva lista que indica la tupla numero-paridad(true/false)
+- Dado una lista de números de 0 a 100 obtener los números que esten por debajo de 50.
+- Dado una lista de números de 0 a 100 obtener los números que esten por debajo de 50 tal cual estan y los que no deberán ser multiplicados por 2.
+- Dado un número N entero entregar un generador que recorra todos los números pares <= a N.
+
+Programación funcional
+
+- Dado un número, generar una función que indique si dicho número es primo o no lo es.
+
+- Definir una función que calcúle el área de un cuadrado. ¿Cómo la modificarías para que calcule el área de un rectangulo?
+
+- Generar un conversor de centímetros a pulgadas
+
+- Generar una función que dado una medida en segundos imprima por pantalla cuanto tiempo falta (actual + segundos) en hs, minutos y segundos para dicha fecha.
+A su vez, se deberá escribir un diccionario (que dicha función reciba por parámetro) donde se guardaran estos campos como "minutos faltantes, horas faltantes y segundos faltantes".
+
+- Escribir un programa que dado un diccionario (empleado-salario) indíque si este se encuentra por debajo del sueldo mínimo ($6000)
+En caso de que lo esté, agregarlo a una lista para luego ser impresa por pantalla.

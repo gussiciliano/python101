@@ -1,10 +1,11 @@
+#!/usr/bin/python3.5
 # -*- coding: utf-8 -*-
 class MiClase:
 
 	@staticmethod
 	def method():
 		print(range(10))
-		
+
 def main():
 	for x in range(10):
 		print(x)
