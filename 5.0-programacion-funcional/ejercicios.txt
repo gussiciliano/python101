@@ -1,0 +1,13 @@
+Recursividad:
+ *** Se deberá tratar de pensar de manera recursiva las resoluciones de los siguientes ejercicios.
+
+- Revertir una lista.
+
+- Dado una lista de numeros calcular la sumatoria de dicho número.
+
+- Calcular el Nesimo número de fibbonacci. (Help: WIKI)
+
+- Dadas 2 listas con la misma cantidad de elementos intercalarlos.
+Ejemplo: [1,2,3,4] y [9,8,7,6] -> [1,9,2,8,3,7,4,6]
+
+- Dada una lista de números enteros y un numero entero n,revertir la lista n veces y retornar cada elemento multiplicado por n

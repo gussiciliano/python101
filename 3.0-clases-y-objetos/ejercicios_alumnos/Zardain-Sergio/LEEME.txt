@@ -1,0 +1,59 @@
+- Clases y Objetos
+
+- Ver auto.py en 3.0 ¿se entiende como está modelado? Consultas por slack.
+- ej02.py - Con auto.py hacer un programa que haga acelerar el auto a 100 km por hora, luego frenarlo y apagarlo.
+- ej03.py - Se requiere modelar un "contacto" con clases (debe poseer los mismos datos que ejercicio de 1.5).
+- ej03.py - Se requiere modelar una "agenda de contactos"(debe poseer las mismas funciones (ag, editar, etc) que ejercicio de 1.5).
+- Luego de modelar Agenda y Contacto nos piden que integremos dichas clases a nuestro sistema de contactos original (diccionario) (ver ultimo ejercicio de 1.5).
+
+Luego de esto, en teoría estaría todo funcionando de la misma manera que antes.
+
+Para ir pensando, NO deben entregar este ejercicio por ahora, vamos a modelarlo en clase. Pueden traer sus ideas ya hechas para debatir entre todos.
+
+1) Modelar una clase personaje, que posea las siguientes características:
+	- Tiene nombre.
+	- Posee nivel, todos los personajes inician en nivel 1.
+	- Cada nivel requiere 10*nivel puntos de experiencia.
+	- Posee atributos fuerza, agilidad e inteligencia que van de 1 a 100.
+	- Sus atributos comienzan en 1 y cada nivel aumenta en 1.
+	- Puede caminar a 0.5 metros por segundo.
+	- Puede correr a 0.8 metros por segundo más 0.01 m/s por cada punto de agilidad que posea.
+	- Posee vida, que va de 0 a 100.
+	- Se requiere observar la vida del personaje de la siguiente manera:
+	     Si la vida es 0, el personaje está muerto.
+	     De 1 a 10 está mal herido, estado crítico.
+	     De 11 a 30 está mal herido.
+	     De 31 a 60 está herido.
+	     De 61 a 99 está levemente herido.
+
+	- Puede recibir daño (en newtons): 1 newton equivale a 1 de vida.
+	- Puede golpear, generando daño (en newtons): 0.5 * fuerza
+
+2) Modelar un Guerrero, que también es un personaje.
+	- Puede golpear con 1 newton de fuerza multiplicado por la cantidad de puntos de fuerza que posea.
+	- Puede defenderse de recibir daño si posee un escudo de la siguiente manera: 1 newton * fuerza.
+
+3) Modelar un Mago, que también es un personaje.
+	- Puede golpear con 1 newton de fuerza multiplicado por la cantidad de puntos de inteligencia que posea.
+	- Puede defenderse de recibir daño si posee un escudo magico: 1 newton * fuerza.
+
+4) Persona en el mundo, es un personaje:
+	- Es un laburante, pero puede ser despedido.
+	- No tiene obra social, pero puede adquirirla.
+	- Cobra en negro, a menos que no tenga trabajo.
+	- Le cae la afip.
+
+6) Modelar Mundo:
+	- En el mundo no existen 2 personajes con el mismo nombre.
+	- El mundo inicia con 4 personajes a elección (de usuario o no)
+	- El mundo recibe instrucciones del juego que pueden ser:
+		- Se pueden agregar personajes.
+		- Se pueden eliminar personajes.
+		- Entrenar personaje: Recibe un personaje y lo hace entrenar en el gimnasio, el mismo recibe 10 puntos de experiencia.
+		- Pelear : Dado dos personajes los hace combatir hasta que uno gane ("mate" al otro).
+		Una vez que el combate termina  imprime por pantalla el resultado del combate y estado actual de los mismos.
+		Automáticamente luego del combate el "dios programador" del mundo hace que los personajes se curen al 100%.
+		-Carrera olímpica: los personajes compiten en una carrera en simultaneo, no existen los empates y alguien siempre gana la carrera.
+		Se deberá representar un podio con los participantes.
+		- Imprime una lista de laburantes.
+		- Se le puede mandar agentes de la afip a los personajes (a todos a la vez)

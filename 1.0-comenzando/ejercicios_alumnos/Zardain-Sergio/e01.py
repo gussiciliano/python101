@@ -1,2 +1,5 @@
-#Escribir un programa que diga "Aguante la Comic Sans"
+# -*- coding: utf-8 -*-
+'''
+Escribir un programa que diga "Aguante la Comic Sans"
+'''
 print("Aguante la Comic Sans")
