@@ -1,0 +1,78 @@
+1) matchear:
+abcdefg
+abcde
+abc
+
+2) matchear:
+abc123xyz
+define "123"
+var g = 123;
+
+3) machear:
+cat.
+896.
+?=+.
+
+4) Matchear:
+can
+man
+fan
+
+Omitir del matcheo:
+dan
+ran
+pan
+
+5) Matchear:
+Ana
+Bob
+Cpc
+
+Omitir:
+aax
+bby
+ccz
+
+6) Matchear:
+wazzzzzup
+wazzzup
+
+Omitir:
+wazup
+
+7) Matchear:
+aaaabcc
+aabbbbc
+aacc
+
+Omitir:
+a
+
+8) Matchear:
+1 file found?
+2 files found?
+24 files found?
+
+Omitir: No files found.
+
+9) Matchear:
+1.   abc
+2.	abc
+3.           abc
+
+Omitir:
+4.abc
+
+10) Matchear:
+Mission: successful
+
+Omitir:
+Last Mission: unsuccessful
+Next Mission: successful upon capture of target
+
+11) Matchear:
+file_record_transcript.pdf
+file_07241999.pdf
+
+Omitir:
+testfile_fake.pdf.tmp
